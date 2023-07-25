@@ -1,0 +1,56 @@
+body {
+    background-color: #f1a9a9;
+    height: 103vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .img{
+    height: 20vh;
+    width: 20vh;
+  }
+  .card {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 24px;
+    min-width: 250px;
+    max-width: 310px;
+    width: 100%;
+    background-color: #dec5c5;
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 
+    0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  .cards{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+  }
+ .profle-image{
+    padding:15% 10% 0%
+  }
+img{
+max-width: 100%;
+vertical-align: top;
+margin-top: 15px;
+position: relative;
+border-radius: 50%;
+max-width: 40%;
+
+  }
+  figcaption{
+    padding: 5% 10% 15%;
+  }
+ i{
+    color: #06cfd6;
+  }
+  i:hover{
+    color: aquamarine;
+  }
+  
+  
