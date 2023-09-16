@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: url('https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60')
+    ;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 400px;
+    margin:100px auto 0px auto;
+}
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    color: azure;
+}
+.register{
+    background-color:rgba(247, 228, 238, 0.26) ;
+    width:100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+form{
+    margin: 40px;
+}
+label{
+    font-weight: 400;
+    font-style: italic;
+    margin: 2px 5px;
+    color: azure;
+}
+input{
+    width: 300px;
+    border: 1px solid azure;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btn{
+    width:200px;
+    padding:7px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    background: url('https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60')
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.btn:hover{
+    background: url('https://images.unsplash.com/photo-1604076913837-52ab5629fba9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+select{
+    width: 300px;
+    border: 1px solid azure;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: rgb(238, 248, 248);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; 
+}
+.select option{
+
+    width: 345px;
+    border: 1px solid azure;
+    
+    outline: 0;
+    padding: 7px;
+    background-color: rgb(218, 247, 247);
+    margin: 15px 5px;
+    padding: 15px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
