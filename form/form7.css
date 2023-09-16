@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: rgb(2, 2, 54)
+    ;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 400px;
+    margin:100px auto 0px auto;
+}
+.main h1{
+    font-size: 36px;
+    text-align: center;
+    color: azure;
+}
+.register{
+    background-color:rgba(247, 228, 238, 0.26) ;
+    width:100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+form{
+    margin: 40px;
+}
+label{
+    font-weight: 400;
+   
+    margin: 2px 5px;
+    color: azure;
+}
+input{
+    width: 300px;
+    border: 1px solid azure;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: azure;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.btn{
+    width:200px;
+    padding:7px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.btn:hover{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+    margin: 10px 0px;
+    background-image: linear-gradient(rgb(161, 161, 220), violet);
+}
+
+
+
