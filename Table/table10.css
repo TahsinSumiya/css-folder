@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url('https://media.istockphoto.com/id/695548012/photo/the-abstract-retro-light-green-background.jpg?s=612x612&w=0&k=20&c=loz1RoeDxdIRug-V7wBcYfGZp4SJTISqUtNE2hHv-Hw=')
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+table{
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+table,th,td{
+    padding:20px;
+   
+    border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+}
+td{
+    font-size: 19px;
+  
+}
+
+
+tr:hover{
+  
+    box-shadow: rgb(189, 191, 190) 3px 3px 6px 0px inset, rgba(169, 170, 169, 0.5) -3px -3px 6px 1px inset;
+    
+    
+}

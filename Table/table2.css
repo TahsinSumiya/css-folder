@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url('https://media.istockphoto.com/id/1085287936/photo/milky-way.jpg?s=612x612&w=0&k=20&c=cSnObab7Tv5r2WOhJ7glRiLZ7RlZo6Ar29q3ULdrlmI=')
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+table{
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
+table,th,td{
+    padding:20px;
+    border: 1px solid rgb(214, 209, 209);
+  
+    text-align: center;
+    cursor: pointer;
+}
+td{
+    font-size: 19px;
+  
+}
+th{
+  
+    color: white;
+   
+
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url('https://media.istockphoto.com/id/898680966/photo/little-birds-escape-out-of-birdcage.jpg?s=612x612&w=0&k=20&c=4at3Qyi3BJEYXp5N1jAP7upNvb1Z6itLc9dUtvP0Kzw=')
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+table{
+    width: 600px;
+    background: rgba(204, 203, 204, 0.68);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    color: rgb(0, 0, 0);
+}
+table,th,td{
+    padding:20px;
+    border: 1px solid rgb(214, 209, 209);
+  border-collapse: collapse;
+    text-align: center;
+    cursor: pointer;
+}
+th{
+    background-color: rgb(130, 129, 129);
+}
+td{
+    font-size: 19px;
+  
+}
+
