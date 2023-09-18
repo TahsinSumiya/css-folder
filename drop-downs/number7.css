@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+ul{
+    list-style: none;
+   
+   
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+display: block;
+padding: 20px 25px;
+
+color: black;
+text-decoration: none;
+text-align: center;
+
+}
+ul li ul.dropdowns li{
+display: block;
+
+}
+ul li ul.dropdowns {
+
+width:100%;
+
+position: absolute;
+
+display: none;
+    }
+    ul li a:hover{
+        font-size: 1.3rem;
+        transition: 200ms ease-in-out;
+    
+    }
+    ul li:hover ul.dropdowns{
+display: block;
+    }
+ .options{
+    margin: 5px 5px;
+    background: rgb(195, 163, 225);
+ }
+    

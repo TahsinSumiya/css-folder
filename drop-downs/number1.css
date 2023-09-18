@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+ul{
+    list-style: none;
+    background: pink;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+display: block;
+padding: 20px 25px;
+
+color: aliceblue;
+text-decoration: none;
+text-align: center;
+font-size: large;
+}
+ul li ul.dropdowns li{
+display: block;
+}
+ul li ul.dropdowns {
+width:100%;
+background: rgba(240, 186, 209, 0.902);
+position: absolute;
+
+display: none;
+    }
+    ul li a:hover{
+        background: rgb(237, 205, 210);
+        box-shadow: rgba(250, 154, 196, 0.902) 0px 30px 60px -12px inset, rgba(255, 181, 217, 0.3) 0px 18px 36px -18px inset;
+    }
+    ul li:hover ul.dropdowns{
+display: block;
+    }

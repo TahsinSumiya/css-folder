@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+ul{
+    list-style: none;
+    background: rgb(230, 234, 39);
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+display: block;
+padding: 20px 25px;
+
+color: rgb(18, 19, 19);
+text-decoration: none;
+text-align: center;
+
+}
+ul li ul.dropdowns li{
+display: block;
+}
+ul li ul.dropdowns {
+width:100%;
+background: rgba(235, 245, 128, 0.902);
+position: absolute;
+display: none;
+    }
+    ul li a:hover{
+     color: rgb(255, 255, 255);
+    }
+    ul li:hover ul.dropdowns{
+display: block;
+    }
+    .options{
+        margin: 5px 5px;
+        border: 1px solid black;
+     }
+    .options:nth-child(odd){
+ background: rgb(251, 237, 45);
+
+    }
+    .options:nth-child(even){
+        background: rgb(235, 202, 68);
+    
+           }
+           .options:nth-child(odd):hover{
+            background: rgb(237, 222, 118);
+            transform: scale(1.2);
+            transition: transform 300ms ease-in;
+               }
+               .options:nth-child(even):hover{
+                background: rgb(245, 219, 55);  
+                transform: scale(1.2);
+        transition: transform 300ms ease-in;  }
+            i{
+                display: inline;
+                margin: 0px 6px;
+            }
