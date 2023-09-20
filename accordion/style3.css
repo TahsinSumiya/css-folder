@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: linear-gradient(35deg, rgba(249, 124, 189, 0.8),rgba(249, 144, 198, 0.45))
+        ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container{
+    margin:0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    
+    .container h1{
+        color: rgb(243, 95, 216);
+    }
+    .container .tab{
+        position:relative;
+        background: transparent;
+        padding: 0 30px 30px;
+        box-shadow: rgba(240, 46, 170, 0.3) 5px 5px,
+        rgba(240, 46, 170, 0.2) 10px 10px,
+        rgba(240, 46, 170, 0.1) 15px 15px;
+       
+           
+        border-radius: 5px;
+        overflow:hidden;
+    }
+    
+    .container .tab .icon{
+        appearance: none;
+        
+    }
+    .container .tab label{
+        display: flex;
+        align-items: center;
+        cursor:grabbing;
+       
+    }
+    .container .tab .icon{
+      
+        position: absolute;
+        right: 20px;
+        margin: 25px 2px;
+        font-size: 1rem;
+        color: rgb(237, 158, 223);
+        
+    }
+    .container .tab:hover label::after{
+    color: rgb(237, 158, 223);
+    }
+
+    .container .tab label h2{
+    width:40px;
+    height: 40px;
+    background: rgb(237, 158, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+    
+    
+    .container .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: rgb(243, 97, 216);
+    z-index: 10;
+        }
+    
+    
+    .container .tab .content{
+        max-height:0;
+       
+        overflow: hidden;
+    }
+    .container .tab i:hover ~ .content{
+        max-height: 100vh;
+       
+        }
+    .container .tab .content {
+        position: relative;
+
+        color:rgb(90, 86, 86);
+    
+        z-index:10;
+    }
+        
+    

@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background:rgb(107, 26, 127);
+        ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+    }
+    
+    .container{
+    margin:0 20px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    background: rgb(243, 219, 244);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;       
+    border-radius: 10px;
+
+    }
+    
+    .container h1{
+        color: rgba(79, 79, 77, 0.45);
+    }
+    .container .tab{
+        position:relative;
+        justify-content: center;
+        margin: 5px 12px;
+   background-color: transparent;
+        padding: 0 20px 20px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        overflow:hidden;
+        border: 1px solid lightgrey;
+       
+    }
+
+    .container .tab:nth-child(even){
+        background: rgba(225, 162, 248, 0.45);
+         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+       
+         border: 2px double rgb(243, 186, 243);
+     }
+     .container .tab:nth-child(odd){
+         background: rgba(202, 170, 206, 0.45);
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        
+          border: 2px double rgb(239, 177, 246);
+      } 
+    .container .tab input{
+        appearance: none;
+        
+    }
+    .container .tab label{
+        display: flex;
+        align-items: center;
+        cursor:grabbing;
+       
+    }
+    .container .tab label::after{
+        content: '▼';
+        position: absolute;
+        right: 20px;
+        font-size: 1rem;
+        color:  rgba(0, 0, 0, 0.45);
+       
+    }
+    .container .tab:hover label::after{
+    color: rgba(78, 78, 78, 0.45);
+    }
+ 
+    .container .tab label h2{
+    width:40px;
+    height: 40px;
+  
+    border: 1px solid gainsboro;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    background:rgb(238, 150, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 1.2em;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    
+    .container .tab label h3{
+    position: relative;
+    
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    z-index: 10;
+        }
+    
+    
+    .container .tab .content{
+        max-height:0;
+        transition:1s;
+        overflow: hidden;
+    }
+    .container .tab input:checked ~ .content{
+    max-height: 100vh;
+    }
+    .container .tab .content {
+        position: relative;
+       
+        color:rgb(0, 0, 0);
+        z-index:10;
+    }
+        
+    

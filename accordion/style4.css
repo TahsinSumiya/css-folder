@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(35deg, rgba(124, 249, 149, 0.8),rgba(163, 232, 237, 0.45));
+    }
+    
+    .container{
+    margin:0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    
+    .container h1{
+        color: rgb(25, 84, 25);
+    }
+    .container .tab{
+        position:relative;
+        background: linear-gradient(35deg, rgba(152, 186, 241, 0.8),rgba(163, 232, 237, 0.45));
+        padding: 0 30px 30px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 5px;
+        overflow:hidden;
+    }
+    
+    .container .tab input{
+        appearance: none;
+        
+    }
+    .container .tab label{
+        display: flex;
+        align-items: center;
+        cursor:grabbing;
+       
+    }
+    .container .tab label::after{
+        content: '▼';
+        position: absolute;
+        right: 20px;
+        font-size: 1rem;
+        color: rgb(26, 85, 61);
+        transition: transform 1s;
+    }
+    .container .tab:hover label::after{
+    color: rgb(46, 97, 58);
+    }
+    .container .tab  input:checked ~ label::after{
+        
+        transform: rotate(135deg);
+        }
+    .container .tab label h2{
+    width:40px;
+    height: 40px;
+    background: linear-gradient(150deg, rgba(38, 110, 226, 0.8),rgba(163, 232, 237, 0.45));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 81, 68);
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+    
+    
+    .container .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: rgb(43, 91, 65);
+    z-index: 10;
+        }
+    
+    
+    .container .tab .content{
+        max-height:0;
+        transition:1s;
+        overflow: hidden;
+    }
+    .container .tab input:checked ~ .content{
+    max-height: 100vh;
+    }
+    .container .tab .content p{
+        position: relative;
+        padding:10px 0px;
+        color:black;
+        z-index:10;
+    }
+        
+    

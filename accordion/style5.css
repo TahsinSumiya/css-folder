@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('https://media.istockphoto.com/id/913299060/photo/abstract-colorful-blurred-texture-background-off-focus.jpg?s=612x612&w=0&k=20&c=SR_7LUvJXYaLhDMs8x9nj8_LIS_cM22msNrywWgVUKo=')
+        ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+    }
+    
+    .container{
+    margin:0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    
+    .container h1{
+        color: rgb(25, 84, 25);
+    }
+    .container .tab{
+        position:relative;
+        background: transparent;
+        padding: 0 30px 30px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 5px;
+        overflow:hidden;
+    }
+    
+    .container .tab input{
+        appearance: none;
+        
+    }
+    .container .tab label{
+        display: flex;
+        align-items: center;
+        cursor:grabbing;
+       
+    }
+    .container .tab label::after{
+        content: '▼';
+        position: absolute;
+        right: 20px;
+        font-size: 1rem;
+        color:  rgba(249, 143, 239, 0.45);
+       
+    }
+    .container .tab:hover label::after{
+    color: rgba(243, 74, 227, 0.45);
+    }
+ 
+    .container .tab label h2{
+    width:40px;
+    height: 40px;
+  
+    border: 1px solid gainsboro;
+
+    box-shadow: rgba(237, 105, 232, 0.35) 0px -50px 36px -28px inset;
+    background:url('https://media.istockphoto.com/id/480089960/vector/pink-background.jpg?s=612x612&w=0&k=20&c=3cGmHE_3q-aHFJDWPGO9BIvTCW0XxfEX-PMPspCVesw=');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 81, 68);
+    font-size: 1.2em;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    
+    .container .tab label h3{
+    position: relative;
+    
+    font-weight: 500;
+    color: rgb(43, 91, 65);
+    z-index: 10;
+        }
+    
+    
+    .container .tab .content{
+        max-height:0;
+        transition:1s;
+        overflow: hidden;
+    }
+    .container .tab input:checked ~ .content{
+    max-height: 100vh;
+    }
+    .container .tab .content p{
+        position: relative;
+        padding:10px 0px;
+        color:black;
+        z-index:10;
+    }
+        
+    

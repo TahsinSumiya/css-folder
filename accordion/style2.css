@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: url('https://media.istockphoto.com/id/913407976/photo/balance-stone-with-spa-on-river-coast.jpg?s=612x612&w=0&k=20&c=iVvvuZTGX7p3WrkX3jPteH0GjNIuWwb_NBFYS3PuDng=')
+        ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .container{
+    margin:0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    }
+    
+    .container h1{
+        color: rgb(59, 136, 208);
+    }
+    .container .tab{
+        position:relative;
+        background: transparent;
+        padding: 0 30px 30px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        overflow:hidden;
+    }
+    
+    .container .tab input{
+        appearance: none;
+        
+    }
+    .container .tab label{
+        display: flex;
+        align-items: center;
+        cursor:grabbing;
+       
+    }
+    .container .tab label::after{
+        content: '+';
+        position: absolute;
+        right: 20px;
+        font-size: 2rem;
+        color: rgb(59, 136, 208);
+        
+    }
+    .container .tab:hover label::after{
+    color: rgb(59, 136, 208);
+    }
+
+    .container .tab label h2{
+    width:40px;
+    height: 40px;
+    background: rgb(59, 136, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+    
+    
+    .container .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: white;
+    z-index: 10;
+        }
+    
+    
+    .container .tab .content{
+        max-height:0;
+        transition:1s;
+        overflow: hidden;
+    }
+    .container .tab input:checked ~ .content{
+    max-height: 100vh;
+    }
+    .container .tab .content {
+        position: relative;
+       
+        color:rgb(90, 86, 86);
+    
+        z-index:10;
+    }
+        
+    
