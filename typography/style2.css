@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:
+     url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60)
+     ;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.container::after{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,pink blue);
+    pointer-events: none;
+    mix-blend-mode: color;
+}
+.container .textbox{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    font-size: 5em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #000;
+    mix-blend-mode: screen;
+}
+.container .textbox span{
+font-size: 1.5em;
+}

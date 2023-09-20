@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(#f9f7f7,#000);
+}
+h2{
+    position: relative;
+    font-size: 10em;
+    text-transform: uppercase;
+    color: transparent;
+    background: linear-gradient(to bottom,#ede5e5 0%,
+    #a05a5a 50%,#a05a5a  50%,#f8e2e2 100%
+    );
+    -webkit-background-clip: text;
+}
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: -1;
+    background: linear-gradient(45deg,blue,violet,green
+    ,pink,red,orange);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+h2::after{
+    content: attr(data-text);
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: -2;
+    background: linear-gradient(45deg,blue,violet,green
+    ,pink,red,orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: blur(20px);
+
+}
+ 
