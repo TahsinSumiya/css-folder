@@ -1,0 +1,54 @@
+
+body {
+ background: linear-gradient(45deg, rgba(34,164,116,1) 0%, rgba(41,47,143,1) 100%);;
+    height: 103vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+    background-size: cover;
+  
+  }
+  .img{
+    height: 20vh;
+    width: 20vh;
+  }
+  .card {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 24px;
+    min-width: 350px;
+    max-width: 410px;
+    width: 100%;
+    background:url(https://images.unsplash.com/photo-1694843689085-a70e390fcb9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    
+    
+    
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border: 1px solid rgb(230, 230, 230);
+    border-radius: 40px;
+  
+  }
+.card:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px,
+     rgba(255, 255, 255, 0.1) 0px 24px 80px;
+   
+   
+}
+
+ 
+
+
+  figcaption{
+    padding: 5% 10% 15%;
+  }
+
+  
+  

@@ -1,0 +1,52 @@
+body {
+    background-color: #cbe5e5;
+    height: 103vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+
+    background-size: cover;
+  
+  }
+  .img{
+    height: 20vh;
+    width: 20vh;
+  }
+  .card {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 24px;
+    min-width: 350px;
+    max-width: 410px;
+    width: 100%;
+    background-color: transparent;
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 16px;
+    
+    
+    
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  border: 1px solid rgb(230, 230, 230);
+    border-radius: 40px;
+  
+  }
+.card:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   
+   
+}
+
+ 
+
+
+  figcaption{
+    padding: 5% 10% 15%;
+  }
+
+  
+  
