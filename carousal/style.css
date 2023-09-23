@@ -1,11 +1,17 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body{
-    display: flex;
-    background: #2f4f4f;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    top: 50%;
-  }
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
 
   
   .carousel-wrapper {

@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swiper{
+    height: 400px;
+    width:350px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: rgb(248, 191, 248);
+
+}
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+
+}
+.card{
+    position: relative;
+   background: transparent;
+    margin: 30px 0;
+
+}
+
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 20px;
+position: relative;
+z-index: 100;
+
+
+}
+
+
+
+
+
+.card .professions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    margin: 0px 2px;
+    padding: 0px 20px;
+    
+}
+
+.profression{
+  
+    font-size: 1rem;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 2px;
+    padding: 2px 2px;
+    gap: 20px;
+    margin-top: 5px;
+}
+

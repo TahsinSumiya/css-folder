@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: wheat;
+}
+.swiper{
+    width:450px
+}
+section .card .image{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: purple;
+
+}
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.card{
+    position: relative;
+    background: whitesmoke;
+    border-radius: 20px;
+    margin: 30px 0;
+    height: 320px;
+    width: 280px;
+
+}
+.card::before{
+content: "";
+position: absolute;
+height: 45%;
+width: 100%;
+background: purple;
+border-radius: 20px 20px 0 0;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 30px;
+position: relative;
+z-index: 100;
+}
+
+.card .media-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .media-icon i{
+    color: aliceblue;
+    opacity: 0.6;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icon i:hover{
+    
+    opacity: 1;
+   
+}
+.card .professions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+   
+    
+}
+.professions .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.professions .profession{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.card .rating{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.card .rating i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: purple;
+}
+.card .btn{
+width: 100%;
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.card .btn button{
+background: purple;
+outline:none;
+border: none;
+color:white;
+padding:8px 22px;
+border-radius: 20px;
+transition: all 0.3s ease;
+cursor: pointer;
+margin-bottom: 20px;
+}
+.card .btn button:hover{
+    background: rgb(173, 2, 173);
+
+    }
